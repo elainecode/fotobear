@@ -1,0 +1,195 @@
+html {
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(90deg, #ff8b59, #ff5471);
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    height: 100%;
+    margin: inherit;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* ==========================================================================
+   #LOGIN PAGE SECTION
+   ========================================================================== */
+
+.change-background {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 50px 0;
+    background: linear-gradient(90deg, #b14c85, #ab4cb1);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: absolute
+}
+
+.form {
+    margin-top: 3rem;
+}
+
+.logo {
+    width: 30%;
+}
+
+.form h5 {
+    color: white;
+}
+
+.signup {
+    border: 1px solid #d9dde0;
+    border-radius: .125rem;
+    color: #50546b;
+}
+
+input[type=color],
+input[type=date],
+input[type=datetime-local],
+input[type=datetime],
+input[type=email],
+input[type=month],
+input[type=number],
+input[type=password],
+input[type=search],
+input[type=tel],
+input[type=text],
+input[type=time],
+input[type=url],
+input,
+textarea {
+    padding: .2rem .2rem;
+    border: 1px solid #d9dde0;
+    border-radius: .125rem;
+    font-family: 'Quicksand', sans-serif;
+    color: #50546b;
+    background: white;
+}
+
+.form_btn {
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    border: none;
+    background: #06d6bb;
+}
+
+.form_text {
+    font-size: 0.8rem;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+}
+
+.link {
+    font-size: 0.85rem;
+    color: #06d6bb;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.link:hover {
+    text-shadow: 0.3px 0 0.5px #fff;
+}
+
+
+/* ==========================================================================
+   #LANDING PAGE SECTION
+   ========================================================================== */
+
+.nav-wrapper {
+    background: linear-gradient(180deg, #ff8b59, #ff5471);
+    font-family: 'Quicksand', sans-serif;
+}
+
+.hero_container {
+    background: url("http://res.cloudinary.com/elaine/image/upload/v1467948817/pexels-photo-90604_rvckpc.png") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    padding-top: 2.8rem;
+    width: 100%;
+    min-height: 250px;
+    color: white;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.text-box {
+    width: 40%;
+    margin: 0 auto;
+    text-shadow: 4px 0px 4px #666;
+    line-height: 1.6;
+}
+
+.collection {
+    text-align: left;
+    font-size: 1.5rem;
+    color: #50546b;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+}
+
+.add {
+    background: linear-gradient(90deg, #ff8b59, #ff5471);
+    float: right;
+    margin-top: -8px;
+}
+
+
+/* ==========================================================================
+   #FAVORITES PAGE SECTION
+   ========================================================================== */
+
+h3 {
+    text-align: left;
+    color: #50546b;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.card-content {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+    color: #50546b;
+}
+
+.card-action {
+    color: #a9b2b8;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+}
+
+.right {
+    float: right;
+}
+
+.vote {
+    padding: 0rem 0.5rem;
+    color: #6d7d8a;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.fav {
+    color: #6d7d8a;
+    cursor: pointer;
+}
+
+.fav:hover {
+    color: #ff5471;
+}
+
+.vote:hover {
+    color: #06d6bb;
+}
