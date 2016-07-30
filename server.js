@@ -2,6 +2,7 @@ var express = require('express');
 var morgan = require('morgan');
 var passport = require('passport');
 var path = require('path');
+var cookieParser = require('cookie-parser');
 var mime = require('mime');
 var mongoose = require('mongoose');
 var bodyParser = require('body-parser');
@@ -20,7 +21,7 @@ mongoose.connect(uri, function() {
 
 app.use(express.static(__dirname + "/public"));
 
-
+app.use(cookieParser());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.use(cors());
