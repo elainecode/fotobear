@@ -1,0 +1,1 @@
+Angular/Node app with passport.js authentication

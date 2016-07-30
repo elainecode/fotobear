@@ -3,7 +3,6 @@ var morgan = require('morgan');
 var passport = require('passport');
 var path = require('path');
 var port = process.env.PORT || 3000;
-var cookieParser = require('cookie-parser');
 var mongoose = require('mongoose');
 var bodyParser = require('body-parser');
 var session = require('express-session');
@@ -13,7 +12,7 @@ var cors = require('cors');
 
 var app = express();
 
-var uri = 'mongodb://angryphantom:purse@ds031995.mlab.com:31995/fotobear';
+var uri = 'YOUR-MLAB-URI-GOES-HERE';
 mongoose.connect(uri, function() {
     console.log("mongoose is plugged in");
 });
@@ -21,7 +20,7 @@ mongoose.connect(uri, function() {
 
 app.use(express.static(__dirname + "/public"));
 
-app.use(cookieParser());
+
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.use(cors());
@@ -30,7 +29,7 @@ app.use(cors());
 app.use(morgan('dev'));
 
 app.use(session({
-    secret: 'kellovesorangesoda',
+    secret: 'PUT-A-SECRET-HERE',
     resave: false,
     saveUninitialized: true
 }));
