@@ -2,8 +2,8 @@ var express = require('express');
 var morgan = require('morgan');
 var passport = require('passport');
 var path = require('path');
+var port = process.env.PORT || 3000;
 var cookieParser = require('cookie-parser');
-var mime = require('mime');
 var mongoose = require('mongoose');
 var bodyParser = require('body-parser');
 var session = require('express-session');
@@ -218,5 +218,5 @@ app.all('/*', function(req, res, next) {
 });
 
 
-app.listen(3000);
+app.listen(port);
 console.log('Listening on port 3000');
