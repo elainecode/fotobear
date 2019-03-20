@@ -1,4 +1,7 @@
-## FOTOBEAR APP
+
+## Welcome, 
+
+### Fotobear App Github Repository
 
 ### Description:
 
