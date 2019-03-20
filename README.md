@@ -9,8 +9,6 @@ Javascript MVC "scrapbooking" application that lets users create a secure acount
 
 ![homepage](https://github.com/elainecode/fotobear/blob/master/frontpage.png)
 
-Javascript MVC "scrapbooking" application that lets users create a secure acount and save food images online.
-
 ### Core Technology:
 
 Built with Angular/Javascript/Html/CSS
